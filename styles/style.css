@@ -1,0 +1,10 @@
+/* font-family: "Permanent Marker", cursive;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif; */
+h1 {
+  font-family: "Playfair Display", serif;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
