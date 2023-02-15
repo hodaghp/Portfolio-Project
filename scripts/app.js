@@ -1,4 +1,4 @@
-var element = document.querySelector("h1");
+var element = document.querySelector("#name");
 var startString = element.innerHTML;
 var currentString = "";
 
