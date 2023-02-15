@@ -1,6 +1,5 @@
 var element = document.querySelector("h1");
 var startString = element.innerHTML;
-console.log(startString);
 var currentString = "";
 
 function addToCurrentString() {
@@ -12,7 +11,7 @@ function addToCurrentString() {
     setTimeout(addToCurrentString, 200);
   }
 
-  console.log(currentString);
+  // console.log(currentString);
 }
 
 setTimeout(addToCurrentString, 300);
