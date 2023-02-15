@@ -60,6 +60,13 @@ p {
   margin: auto auto;
   text-align: center;
 }
+.projects-header {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 32px;
+  border-bottom: 5px solid var(--btn-colour);
+}
 .btn-branding {
   color: white;
   font-size: 18px;
