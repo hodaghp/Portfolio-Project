@@ -62,15 +62,24 @@ p {
 .content {
   margin: 30px;
 }
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+
 .content-container p {
   font-size: 18px;
   font-family: var(--default-font-family);
   opacity: 0.9;
   text-align: justify;
+}
+.content p {
+  font-size: 14px;
 }
 .image-center {
   display: flex;
@@ -105,6 +114,11 @@ p {
   border-color: var(--btn-colour);
   border-radius: 4px;
   padding: 15px 30px;
+}
+.lunch-project {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
 }
 .btn:hover {
   background: var(--btn-hover-colour);
