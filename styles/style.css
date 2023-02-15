@@ -90,13 +90,19 @@ p {
   margin: auto auto;
   text-align: center;
 }
-.projects-title {
+.projects-title,
+.contact-title {
   display: flex;
   justify-content: center;
 }
 .projects-header {
   text-align: center;
   font-size: 32px;
+  border-bottom: 5px solid var(--btn-colour);
+}
+.contact-header {
+  padding-left: 7px;
+  border-left: 5px solid var(--btn-colour);
   border-bottom: 5px solid var(--btn-colour);
 }
 .btn-branding {
@@ -129,6 +135,19 @@ p {
 }
 .project-description {
   padding: 120px 60px;
+}
+.contact-section {
+  margin-top: 120px;
+}
+.contact-item {
+  margin-bottom: 45px;
+  margin-left: 150px;
+}
+.contact-header-container {
+  display: flex;
+}
+.contact-header-decoration {
+  border-bottom: 5px solid var(--btn-colour);
 }
 /* #first-letter {
   font-size: 32px;
