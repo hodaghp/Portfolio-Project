@@ -56,17 +56,17 @@ p {
   line-height: 1.5;
   opacity: 0.8;
 }
-.about-section {
+.content-container {
   padding-top: 120px;
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section p {
+.content-container p {
   font-size: 18px;
   font-family: var(--default-font-family);
   opacity: 0.9;
@@ -86,7 +86,6 @@ p {
   justify-content: center;
 }
 .projects-header {
-  width: 200px;
   text-align: center;
   font-size: 32px;
   border-bottom: 5px solid var(--btn-colour);
@@ -134,12 +133,19 @@ p {
 .class-descript-color {
   color: #f1da57;
 }
+.game-link {
+  color: var(--btn-colour);
+  text-decoration: none;
+}
+.game-link:hover {
+  text-decoration: underline;
+}
 @media (max-width: 1200px) {
   .project-description {
     padding: 0;
     text-align: center;
   }
-  .about-section h1 {
+  .content-container h1 {
     font-size: 44px;
   }
 }
@@ -154,17 +160,17 @@ p {
   .hero {
     padding: 80px 0;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
-  .about-section h1 {
+  .content-container h1 {
     font-size: 44px;
   }
 
-  .about-section img {
+  .content-container img {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     /* margin-top: 50px; */
   }
 }
