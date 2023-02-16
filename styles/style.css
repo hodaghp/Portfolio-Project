@@ -5,7 +5,7 @@
   --hero-background: #1c1c1c;
   --btn-colour: #58b792;
   --btn-hover-colour: #409575;
-  --nav-colour: #222222;
+  --nav-colour: #222222ae;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -149,11 +149,7 @@ p {
 .contact-header-decoration {
   border-bottom: 5px solid var(--btn-colour);
 }
-/* #first-letter {
-  font-size: 32px;
-  color: var(--green-background);
-  font-weight: bold;
-} */
+
 #name {
   display: none;
 }
@@ -173,6 +169,42 @@ p {
 .game-link:hover {
   text-decoration: underline;
 }
+.contact-me-header {
+  margin: 100px 0 0 0;
+}
+.bg-special {
+  background: var(--nav-colour);
+}
+.color-it-green {
+  color: var(--btn-colour);
+}
+footer {
+  margin: 60px 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a {
+  margin: 0 20px;
+  background-color: #222222;
+  color: var(--btn-colour);
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: #222222;
+  background-color: var(--btn-hover-colour);
+}
+
+footer .email-link:hover {
+  color: white;
+}
+
 @media (max-width: 1200px) {
   .project-description {
     padding: 0;
