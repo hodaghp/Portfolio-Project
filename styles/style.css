@@ -90,12 +90,12 @@ p {
   margin: auto auto;
   text-align: center;
 }
-.projects-title,
+.title,
 .contact-title {
   display: flex;
   justify-content: center;
 }
-.projects-header {
+.header {
   text-align: center;
   font-size: 32px;
   border-bottom: 5px solid var(--btn-colour);
@@ -178,6 +178,7 @@ p {
 .color-it-green {
   color: var(--btn-colour);
 }
+
 footer {
   margin: 60px 0;
 }
@@ -238,5 +239,140 @@ footer .email-link:hover {
     width: 80%;
     margin: 0 auto 20px;
     /* margin-top: 50px; */
+  }
+}
+
+.skills-area {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+}
+
+.skill {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.skill-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  height: 40px;
+  z-index: -1;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.skill-fill {
+  background: var(--btn-hover-colour);
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  overflow: hidden;
+}
+
+.skill-percent {
+  font-size: 30px;
+}
+
+.html {
+  animation: html 2s;
+  width: 60%;
+}
+
+.css {
+  animation: css 2s;
+  width: 70%;
+}
+
+.js {
+  animation: js 2s;
+  width: 50%;
+}
+.java {
+  animation: java 2s;
+  width: 70%;
+}
+.c {
+  animation: c 2s;
+  width: 50%;
+}
+.react .skill-percent {
+  color: var(--hero-background);
+  font-size: 18px;
+}
+.skill-fill-react {
+  color: transparent;
+  padding: 5px 0 5px 10px;
+}
+.react {
+  animation: react 2s;
+  width: 60%;
+}
+
+@keyframes html {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+@keyframes css {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+@keyframes js {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes java {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+@keyframes c {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes eact {
+  from {
+    width: 0;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .skills-area {
+    padding: 0 5%;
   }
 }

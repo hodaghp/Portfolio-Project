@@ -15,3 +15,17 @@ function addToCurrentString() {
 }
 
 setTimeout(addToCurrentString, 300);
+
+function toggleTheme() {
+  if (theme === "light") {
+    theme = "dark";
+    document.querySelector("body").classList.add("dark");
+  } else {
+    theme = "light";
+    document.querySelector("body").classList.remove("dark");
+  }
+}
+
+let theme = "dark";
+let themeButton = document.querySelector("#change-theme-button");
+themeButton.addEventListener("click", toggleTheme);
