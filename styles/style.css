@@ -252,6 +252,10 @@ footer .email-link:hover {
   position: relative;
   margin-bottom: 40px;
 }
+/* .single-skill {
+  margin: 0 auto;
+  width: 35%;
+} */
 
 .skill-title {
   font-size: 30px;
@@ -284,7 +288,7 @@ footer .email-link:hover {
 
 .html {
   animation: html 2s;
-  width: 60%;
+  width: 70%;
 }
 
 .css {
@@ -304,7 +308,7 @@ footer .email-link:hover {
   animation: c 2s;
   width: 50%;
 }
-.react .skill-percent {
+/* .react .skill-percent {
   color: var(--hero-background);
   font-size: 18px;
 }
@@ -315,14 +319,14 @@ footer .email-link:hover {
 .react {
   animation: react 2s;
   width: 60%;
-}
+} */
 
 @keyframes html {
   from {
     width: 0;
   }
   to {
-    width: 60%;
+    width: 70%;
   }
 }
 
